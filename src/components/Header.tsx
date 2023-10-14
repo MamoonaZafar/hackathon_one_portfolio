@@ -20,7 +20,7 @@ const Header = (props: Props) => {
           <SocialIcon style={{height:25, width: 25}} bgColor= "#A53167" className="hover:scale-125 duration-200" url="https://facebook.com" />
       </div> 
      </div>
-     <div className='absolute w-[50%] md:w-[20%] h-[30%] -z-10 filter blur-3xl bg-gradient-to-r from bg-pink-600 to-purple-500 opacity-70'/>
+     <div className='absolute w-[50%] md:w-[20%] h-[30%] -z-10 filter blur-3xl bg-gradient-to-r from-pink-600 to-purple-500 opacity-70'/>
 
     </section>
   )
