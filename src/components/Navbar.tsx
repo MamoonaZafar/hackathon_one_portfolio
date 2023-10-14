@@ -9,7 +9,7 @@ import Motion from '@/components/Motion'
 
 type Props = {}
 
-const navbar = (props: Props) => {
+const Navbar = (props: Props) => {
   const pathname = usePathname()
   
   return (
@@ -32,4 +32,4 @@ const navbar = (props: Props) => {
   )
 }
 
-export default navbar
+export default Navbar
