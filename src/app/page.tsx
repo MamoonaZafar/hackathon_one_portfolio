@@ -10,7 +10,6 @@ import Skills from "@/components/skills";
 export default function Home() {
   return (
     <div className="w-full overflow-x-hidden bg[#F1F6F9]">
-      <Navbar/>
       <Header/>
       <Divider/>
       <About/>
@@ -20,7 +19,6 @@ export default function Home() {
       <Projects/>
       <Divider/>
       <Contact/>
-      <Footer/>
       
 
     </div>
